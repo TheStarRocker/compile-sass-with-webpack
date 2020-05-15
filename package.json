@@ -1,0 +1,8 @@
+{
+  "name": "compile-sass",
+  "version": "1.0.0",
+  "description": "Webpack environment ready to compile sass.",
+  "main": "index.js",
+  "author": "Arian Vega",
+  "license": "GPL-3.0-only"
+}
