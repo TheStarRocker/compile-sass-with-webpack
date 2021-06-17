@@ -16,17 +16,7 @@ $ npm install
 
 ## Scripts
 
-Compile the **TypeScript** files from the **src/**
-
-```bash
-$ yarn run tscc
-```
-
-```bash
-$ npm run tscc
-```
-
-After importing the **sass/scss** files into **index.ts**, run the following to compile **sass/scss** into **css**.
+After importing the **sass/scss** files into **index.js**, run the following to compile **sass/scss** into **css**.
 
 ### Development
 
@@ -48,7 +38,7 @@ $ yarn run prod
 $ npm run prod
 ```
 
-Deletes the **dist/** folders generated when compiling the files.
+Delete the **dist/** folder generated when compiling the files.
 
 ```bash
 $ yarn run clean
