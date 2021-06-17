@@ -6,7 +6,7 @@
   "author": "Arian Vega",
   "license": "GPL-3.0-only",
   "scripts": {
-    "dev": "rimraf dist && webpack --config src/dist/webpack/dev.js && rimraf dist/js",
+    "dev": "rimraf dist/ && webpack --config webpack/dev.js && rimraf dist/js",
     "prod": "rimraf dist/*.min.css && webpack --config src/dist/webpack/prod.js && rimraf dist/js",
     "clean": "rimraf dist && rimraf src/dist"
   },
