@@ -4,7 +4,7 @@
   "description": "Webpack environment ready to compile sass.",
   "main": "index.js",
   "author": "Arian Vega",
-  "license": "GPL-3.0-only",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "rimraf dist/ && webpack --config webpack/dev.js && rimraf dist/js",
     "prod": "rimraf dist/*.min.css && webpack --config webpack/prod.js && rimraf dist/js",
