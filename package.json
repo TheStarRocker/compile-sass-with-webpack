@@ -12,10 +12,10 @@
     "clean": "rimraf dist && rimraf src/dist"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
     "css-loader": "^5.2.6",
     "mini-css-extract-plugin": "^1.6.0",
     "postcss-loader": "^6.1.0",
+    "postcss-preset-env": "^6.7.0",
     "rimraf": "^3.0.2",
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
