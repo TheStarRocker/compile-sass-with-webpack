@@ -1,5 +1,5 @@
 {
-  "name": "compile-sass",
+  "name": "compile-sass-with-webpack",
   "version": "1.0.0",
   "description": "Webpack environment ready to compile sass.",
   "main": "index.js",
